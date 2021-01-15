@@ -163,7 +163,7 @@ function draw() {
       if(i == 10){scorpio.mask(quadmask);
                image(scorpio, -110, -245, 80, 75);}
       if(i == 11){sagittarius.mask(quadmask);
-               image(sagittarius, -110, -255, 100, 90);}     
+               image(sagittarius, -110, -255, 80, 90);}     
    
   translate(p5.Vector.fromAngle(0.5236*(i), 117)); //translate every symbol so they form a circle
 }
