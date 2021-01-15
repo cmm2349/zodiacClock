@@ -86,7 +86,7 @@ function draw() {
   //create lines on clock
   push();
   translate(0,0);
-  rotate(268); //start at the top
+  rotate(270); //start at the top
   for(i = 0; i < 12; i+=1){
     stroke('#ba9b37'); //light gold
     strokeWeight(1);
